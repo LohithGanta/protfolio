@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ganta Lohith Sri Ram Kumar - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- ============ TOP NAVBAR ============ -->
+    <nav>
+        <div class="container">
+            <div class="logo">GLSRK</div>
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ============ SIDE ICON NAV ============ -->
+    <div class="side-nav">
+        <a href="#home" title="Home"><i class="fas fa-home"></i></a>
+        <a href="#about" title="About"><i class="fas fa-user"></i></a>
+        
+        <a href="#portfolio" title="Projects"><i class="fas fa-trophy"></i></a>
+        <a href="#contact" title="Contact"><i class="fas fa-paper-plane"></i></a>
+    </div>
+
+    <!-- ============ HERO SECTION ============ -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="profile-pic-container">
+                <img src="IMG-20251115-WA0000.jpg.jpeg" 
+                     alt="Ganta Lohith Sri Ram Kumar" 
+                     class="profile-pic">
+            </div>
+
+            <h1 class="hero-title">Ganta Lohith Sri Ram Kumar</h1>
+
+            <p class="hero-tagline">
+                Backend-focused Full Stack Developer specializing in Java and Spring Boot.
+                Built enterprise-grade systems using microservices architecture,
+                JWT authentication, and layered MVC design.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#contact" class="btn-primary">Contact Me</a>
+
+                <!-- RECOMMENDED: local PDF -->
+                <a href="resume.pdf" target="_blank" class="btn-secondary">
+                    View Resume
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ ABOUT SECTION ============ -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+
+            <div class="about-grid">
+
+                <div class="about-card glass-card">
+                    <h3>👨‍💻 Who I Am</h3>
+                    <p>
+                        Backend-focused Full Stack Developer specializing in Java and Spring Boot.
+                        Experienced in microservices architecture, secure authentication,
+                        and scalable system design. Passionate about solving real-world
+                        problems with clean and maintainable code.
+                    </p>
+                </div>
+
+                <div class="education-card glass-card">
+                    <div class="edu-icon">🎓</div>
+                    <h3>Education</h3>
+                    <p>B.Tech in Computer Science Engineering</p>
+                    <p>Koneru Lakshmaiah Education Foundation</p>
+                    <p><strong>CGPA:</strong> 8.34 | </strong> 2025</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ SKILLS SECTION ============ -->
+    <section id="skills">
+        <div class="container">
+            <h2 class="tech-title">Technical Skills</h2>
+
+            <div class="tech-grid">
+
+                <div class="tech-card glass-card">
+                    <div class="tech-icon">⚙️</div>
+                    <h3>Backend</h3>
+                    <div class="tech-tags">
+                        <span>Spring Boot</span>
+                        <span>JPA</span>
+                        <span>Hibernate</span>
+                        <span>REST APIs</span>
+                        <span>JWT</span>
+                    </div>
+                </div>
+
+                <div class="tech-card glass-card">
+                    <div class="tech-icon">&lt;/&gt;</div>
+                    <h3>Languages</h3>
+                    <div class="tech-tags">
+                        <span>Java</span>
+                        <span>JavaScript</span>
+                        <span>Python</span>
+                    </div>
+                </div>
+
+                <div class="tech-card glass-card">
+                    <div class="tech-icon">🗄️</div>
+                    <h3>Database & Cloud</h3>
+                    <div class="tech-tags">
+                        <span>MySQL</span>
+                        <span>AWS</span>
+                        <span>S3</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ PROJECTS SECTION ============ -->
+    <section id="portfolio">
+        <div class="container">
+            <h2>Projects</h2>
+
+            <div class="portfolio-card glass-card">
+    <h3>Loan Application Management System</h3>
+
+    <p>
+        Microservices-based system with secure authentication
+        and distributed architecture.
+    </p>
+
+    <div class="project-links">
+        <a href="https://github.com/LohithGanta/loanapplication"
+           target="_blank"
+           class="project-link">
+            <i class="fab fa-github"></i> View Code
+        </a>
+
+       
+    </div>
+</div>
+
+                <div class="portfolio-card glass-card">
+                    <h3>Smart City Management</h3>
+                    <p>
+                        Role-based full-stack system built with Spring Boot
+                        and REST APIs.
+                    </p>
+                    <div class="project-links">
+        <a href="https://github.com/LohithGanta/smartcity"
+           target="_blank"
+           class="project-link">
+            <i class="fab fa-github"></i> View Code
+        </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ CONTACT SECTION ============ -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+
+            <div class="contact-info">
+
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:lohith.ganta@gmail.com">
+                        lohith.ganta@gmail.com
+                    </a>
+                </div>
+
+                <div class="contact-item">
+                    <i class="fab fa-linkedin"></i>
+                    <a href="https://www.linkedin.com/in/ganta-lohith-sri-ram-kumar" target="_blank">
+                        LinkedIn
+                    </a>
+                </div>
+
+                <div class="contact-item">
+                    <i class="fab fa-github"></i>
+                    <a href="https://github.com/lohithganta" target="_blank">
+                        GitHub
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ FOOTER ============ -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Ganta Lohith Sri Ram Kumar</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
